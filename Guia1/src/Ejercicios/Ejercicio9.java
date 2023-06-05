@@ -13,7 +13,10 @@ public class Ejercicio9 {
         double euro = pesos / (250.69);
         double guaranies = pesos / (31);
         double reales = pesos / (46.81);
-        
+
+        /* ---------------------------------
+        El cálculo de los guaraníes está mal
+        --------------------------------- */
         System.out.println("El equivalente en dolares es:" + dolar);
         System.out.println("El equivalente en euros es:" + euro);
         System.out.println("El equivalente en guaranies es:" + guaranies);

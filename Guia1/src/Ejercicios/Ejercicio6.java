@@ -12,7 +12,10 @@ public class Ejercicio6 {
         double precio = s.nextDouble();
         System.out.println("Ingrese el porcentaje de descuento");
         double descuento = s.nextDouble();
-       
+
+        /* ----------------------------
+        Falta informar el descuento
+        ---------------------------- */
         double totalAPagar = (double)((precio)-(precio * descuento)/100);
         System.out.println("El total a pagar es:" + totalAPagar);
         
